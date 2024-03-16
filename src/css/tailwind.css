@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  
+}
+
+@layer components {
+  .category-list {
+    @apply relative;
+  }
+
+  .category-list:before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 1px;
+    @apply bg-primary absolute left-0;
+  }
+
+  .category-list:after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 1px;
+    @apply bg-primary absolute right-0;
+  }
+}
