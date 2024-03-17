@@ -8,7 +8,7 @@
 <script>
 import { MoveUpRight } from 'lucide-vue-next';
 export default {
-  name: 'ButtonPrimary',
+  name: 'ButtonCTA',
   components: {
     MoveUpRight
   },

@@ -8,16 +8,16 @@
       <img class="rounded-xl mt-10" data-aos="zoom-in" data-aos-duration="2500" src="/images/scarf.png" alt="">
       <img class="rounded-xl" data-aos="zoom-in" data-aos-duration="3000" src="/images/outer.png" alt="">
     </div>
-    <ButtonPrimary :title="title" />
+    <ButtonCTA :title="title" />
   </section>
 </template>
 <script lang="js">
-import ButtonPrimary from './ui/ButtonPrimary.vue'
+import ButtonCTA from './ui/ButtonCTA.vue'
 
 export default {
   name: 'Hero',
   components: {
-    ButtonPrimary
+    ButtonCTA
   },
   data() {
     return {
@@ -26,4 +26,4 @@ export default {
   },
 }
 </script>
-<style></style>./ui/ButtonPrimary.vue
+<style></style>./ui/ButtonPrimary.vue./ui/ButtonCTA.vue
