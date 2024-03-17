@@ -7,12 +7,8 @@
     @apply inline-block;
   }
 
-  h1 {
-    @apply text-[72px] font-bold;
-  }
-
   h2 {
-    @apply text-[38px] font-bold;
+    @apply text-[64px] font-semibold;
   }
 }
 
