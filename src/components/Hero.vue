@@ -8,7 +8,9 @@
       <img class="rounded-xl mt-10" data-aos="zoom-in" data-aos-duration="2500" src="/images/scarf.png" alt="">
       <img class="rounded-xl" data-aos="zoom-in" data-aos-duration="3000" src="/images/outer.png" alt="">
     </div>
-    <ButtonCTA :title="title" />
+    <div data-aos="fade-right" data-aos-delay="100"  data-aos-offset="800" >
+      <ButtonCTA :title="title" />
+    </div>
   </section>
 </template>
 <script lang="js">

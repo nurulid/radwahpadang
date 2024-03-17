@@ -1,7 +1,7 @@
 <template>
   <section class="my-10 bg-[url(/bg-gradient.svg)] bg-no-repeat bg-cover py-10">
     <div class="container">
-      <div class="text-center mb-20">
+      <div class="text-center mb-20" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="100">
         <span class="py-1 px-4 bg-secondary text-white rounded-md inline-block">Order</span>
         <h2 class="mt-3">Cara Pemesanan</h2>
         <p class="text-xl text-graytext">Panduan singkat mengenai cara pemesanan produk kami</p>
