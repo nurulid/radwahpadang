@@ -5,7 +5,9 @@ export default {
     extend: {
       colors: {
         'primary': "#CA2D0E",
-        'secondary': "#007475"
+        'primaryLight': "#FFD4CC",
+        'secondary': "#007475",
+        'graytext': "#656565"
       }
     },
   },
