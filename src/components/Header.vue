@@ -1,7 +1,7 @@
 <template lang="">
-  <div class="container">
-    <img src="../assets/radwahpadang-logo.svg" class="max-w-[558px] w-full mx-auto" alt="">
-    <ul class="category-list text-primary flex justify-center items-center flex-wrap gap-10 p-5">
+  <header class="container">
+    <img src="../assets/radwahpadang-logo.svg" class="max-w-[558px] w-full mx-auto" alt="" data-aos="fade-down" data-aos-duration="1000">
+    <ul data-aos="zoom-out" data-aos-duration="1500" class="category-list text-primary flex justify-center items-center flex-wrap gap-10 p-5">
       <li>Dress</li>
       <li>Tunik</li>
       <li>Shirt</li>
@@ -11,7 +11,7 @@
       <li>Scarf</li>
       <li>Prayer set</li>
     </ul>
-  </div>
+  </header>
 </template>
 <script>
 export default {
