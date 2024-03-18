@@ -20,7 +20,7 @@ export default {
         if (phoneNumber) {
           step.desc = step.desc.replace(
             phoneNumber[0],
-            `<span class="text-primary font-bold block">${phoneNumber[0]}</span>`
+            `<a href="https://wa.me/${phoneNumber[0]}" target="_blank" class="text-primary font-bold block">${phoneNumber[0]}</a>`
           );
         }
         return step;
