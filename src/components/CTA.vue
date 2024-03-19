@@ -1,6 +1,6 @@
 <template>
   <section class="container my-[50px] lg:my-[150px]">
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 mx-0 lg:mx-20">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 mx-0 md:mx-5 lg:mx-20">
       <div class="lg:col-span-2 bg-black text-white p-10 rounded-2xl flex flex-col justify-between gap-10">
         <div class="relative">
           <h2 class="leading-[1] mb-5 text-[32px] lg:text-[48px] font-semibold pl-[20px]">Cek katalog lengkap di Instagram kami</h2>

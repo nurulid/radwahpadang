@@ -447,18 +447,22 @@ video {
 @font-face {
   font-family: 'LibreBaskerville';
 
-  font-style: normal;
-
   font-weight: 400;
 
+  font-family: 'Libre Baskerville';
+
+  src: url('LibreBaskerville-Regular.eot');
+
+  src: url('LibreBaskerville-Regular.eot?#iefix') format('embedded-opentype'),
+        url('LibreBaskerville-Regular.woff2') format('woff2'),
+        url('LibreBaskerville-Regular.woff') format('woff'),
+        url('LibreBaskerville-Regular.svg#LibreBaskerville-Regular') format('svg');
+
+  font-weight: normal;
+
+  font-style: normal;
+
   font-display: swap;
-
-  src: url('./assets/fonts/LibreBaskerville-Regular.eot');
-
-  src: url('./assets/fonts/LibreBaskerville-Regular.ttf') format('ttf'),
-    url('./assets/fonts/LibreBaskerville-Regular.svg') format('svg'),
-    url('./assets/fonts/LibreBaskerville-Regular.woff') format('woff'),
-    url('./assets/fonts/LibreBaskerville-Regular.woff2') format('woff2');
 }
 
 a {
@@ -1244,6 +1248,16 @@ h2 {
 
   .md\:order-2 {
     order: 2;
+  }
+
+  .md\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .md\:mx-5 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
   }
 
   .md\:w-full {
