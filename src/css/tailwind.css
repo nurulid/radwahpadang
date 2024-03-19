@@ -16,7 +16,7 @@
   }
 
   h2 {
-    @apply text-[64px] font-semibold font-[LibreBaskerville];
+    @apply text-[48px] md:text-[64px] font-semibold font-[LibreBaskerville] leading-[1] md:leading-[1.2] mb-2;
   }
 }
 

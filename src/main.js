@@ -1,6 +1,6 @@
 import { createApp } from "vue";
-import "./css/global.css";
 import "./css/style.css";
+import "./css/global.css";
 import App from "./App.vue";
 
 // importing AOS

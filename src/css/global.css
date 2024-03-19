@@ -461,9 +461,18 @@ a {
 }
 
 h2 {
+  margin-bottom: 0.5rem;
   font-family: LibreBaskerville;
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 600;
+  line-height: 1;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 64px;
+    line-height: 1.2;
+  }
 }
 
 *, ::before, ::after {
@@ -650,8 +659,16 @@ h2 {
   top: -20px;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .left-0 {
   left: 0px;
+}
+
+.right-0 {
+  right: 0px;
 }
 
 .right-\[20px\] {
@@ -660,14 +677,6 @@ h2 {
 
 .top-0 {
   top: 0px;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.right-0 {
-  right: 0px;
 }
 
 .col-span-2 {
@@ -716,10 +725,6 @@ h2 {
 
 .mr-4 {
   margin-right: 1rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .mt-3 {
@@ -786,20 +791,16 @@ h2 {
   animation: bounce 1s infinite;
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -834,16 +835,16 @@ h2 {
   gap: 0.5rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .gap-8 {
   gap: 2rem;
 }
 
 .gap-9 {
   gap: 2.25rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
@@ -945,22 +946,6 @@ h2 {
   background-color: rgb(255 255 255 / 0.3);
 }
 
-.bg-white\/40 {
-  background-color: rgb(255 255 255 / 0.4);
-}
-
-.bg-white\/80 {
-  background-color: rgb(255 255 255 / 0.8);
-}
-
-.bg-white\/20 {
-  background-color: rgb(255 255 255 / 0.2);
-}
-
-.bg-primary\/30 {
-  background-color: rgb(202 45 14 / 0.3);
-}
-
 .bg-white\/50 {
   background-color: rgb(255 255 255 / 0.5);
 }
@@ -989,6 +974,30 @@ h2 {
   padding: 2rem;
 }
 
+.p-\[\] {
+  padding: ;
+}
+
+.p-\[1rem\] {
+  padding: 1rem;
+}
+
+.p-\[1rem_\] {
+  padding: 1rem;
+}
+
+.p-\[1rem_1rem\] {
+  padding: 1rem 1rem;
+}
+
+.p-\[1rem_1rem_\] {
+  padding: 1rem 1rem;
+}
+
+.p-\[1rem_1rem_2rem\] {
+  padding: 1rem 1rem 2rem;
+}
+
 .\!px-0 {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -1012,6 +1021,11 @@ h2 {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .px-6 {
@@ -1047,11 +1061,6 @@ h2 {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
 }
 
 .pb-10 {
@@ -1107,11 +1116,6 @@ h2 {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -1227,12 +1231,15 @@ h2 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .lg\:gap-10 {
-    gap: 2.5rem;
+  .lg\:p-\[2rem\] {
+    padding: 2rem;
   }
 
-  .lg\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
+  .lg\:\!p-\[2rem\] {
+    padding: 2rem !important;
+  }
+
+  .lg\:p-\[4rem_2rem\] {
+    padding: 4rem 2rem;
   }
 }
