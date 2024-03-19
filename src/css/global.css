@@ -456,6 +456,54 @@ video {
   src: url(./assets/fonts/LibreBaskerville-Regular.ttf) format('ttf');
 }
 
+@font-face {
+  font-family: 'LibreBaskerville';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url(./assets/fonts/LibreBaskerville-Regular.eot) format('eot');
+}
+
+@font-face {
+  font-family: 'LibreBaskerville';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url(./assets/fonts/LibreBaskerville-Regular.svg) format('svg');
+}
+
+@font-face {
+  font-family: 'LibreBaskerville';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url(./assets/fonts/LibreBaskerville-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'LibreBaskerville';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url(./assets/fonts/LibreBaskerville-Regular.woff2) format('woff2');
+}
+
 a {
   display: inline-block;
 }
@@ -878,6 +926,10 @@ h2 {
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -896,14 +948,6 @@ h2 {
 
 .rounded-md {
   border-radius: 0.375rem;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
-.rounded {
-  border-radius: 0.25rem;
 }
 
 .border-2 {
@@ -1200,6 +1244,10 @@ h2 {
 .hover\:bg-black:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white\/70:hover {
+  background-color: rgb(255 255 255 / 0.7);
 }
 
 .hover\:text-white:hover {
