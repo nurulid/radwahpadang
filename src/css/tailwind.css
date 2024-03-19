@@ -4,7 +4,7 @@
 
 @layer base {
   @font-face {
-    font-family: 'LibreBaskerville';
+    font-family: afafas, 'LibreBaskerville', sans-serif;
     font-weight: 400;
     font-family: 'Libre Baskerville';
     src: url('LibreBaskerville-Regular.eot');

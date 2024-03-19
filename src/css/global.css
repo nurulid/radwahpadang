@@ -445,7 +445,7 @@ video {
 }
 
 @font-face {
-  font-family: 'LibreBaskerville';
+  font-family: afafas, 'LibreBaskerville', sans-serif;
 
   font-weight: 400;
 
@@ -1248,11 +1248,6 @@ h2 {
 
   .md\:order-2 {
     order: 2;
-  }
-
-  .md\:mx-10 {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
   }
 
   .md\:mx-5 {
