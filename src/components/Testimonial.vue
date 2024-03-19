@@ -5,7 +5,7 @@
       <h2 class="mt-3 font-[LibreBaskerville]">Ulasan dari Pelanggan</h2>
       <p class="text-xl text-graytext">Pesanan anda kami pastikan sesuai dan sampai dengan selamat</p>
     </div>
-    <div class="grid grid-cols-4 gap-8 my-10">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 my-10">
       <img src="/images/testi-1.png" alt="">
       <img src="/images/testi-2.png" alt="">
       <img src="/images/testi-1.png" alt="">

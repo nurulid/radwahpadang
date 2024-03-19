@@ -1,14 +1,14 @@
 <template>
-  <section class="container my-[150px]">
-    <div class="grid grid-cols-3 gap-10 mx-20">
-      <div class="col-span-2 bg-black text-white p-10 rounded-2xl flex flex-col justify-between">
+  <section class="container my-[50px] lg:my-[150px]">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 mx-0 lg:mx-20">
+      <div class="lg:col-span-2 bg-black text-white p-10 rounded-2xl flex flex-col justify-between gap-10">
         <div class="relative">
-          <h2 class="leading-[1] mb-5 text-[48px] font-semibold pl-[20px]">Cek katalog lengkap di Instagram kami</h2>
+          <h2 class="leading-[1] mb-5 text-[32px] lg:text-[48px] font-semibold pl-[20px]">Cek katalog lengkap di Instagram kami</h2>
           <img src="/icons/ic-highlight.svg" width="24" alt="" class="absolute left-0 -top-4 animate-bounce">
         </div>
-        <div class="flex justify-between items-end">
-          <ButtonCTA :title="title"/>
-          <div class="flex items-center gap-2 text-white">
+        <div class="flex justify-between items-end flex-wrap gap-5">
+          <ButtonCTA :title="title" class="order-2 md:order-1"/>
+          <div class="flex items-center gap-2 text-white order-1 md:order-2">
             <img src="/icons/ic-instagram.svg" width="30" alt="">
             radwahpadang
           </div>
