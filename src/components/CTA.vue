@@ -16,7 +16,7 @@
       </div>
       <div class="bg-white p-10 rounded-2xl space-y-6 relative group hover:animate-flip transition-all">
         <img src="/icons/ic-whatsapp-black.svg" width="80" alt="" fill="black">
-        <h3 class="text-[24px] font-semibold">Fast Respon</h3>
+        <h3 class="text-[24px] font-semibold font-[LibreBaskerville]">Fast Respon</h3>
         <p class="text-graytext">Jika ada pertanyaan atau pemesanan, langsung hubungi admin kami melalui WhatsApp ya.</p>
         <img src="/icons/ic-arrow-up.svg" alt="" class="absolute top-0 right-[20px]">
         <div class="absolute inset-0 bg-white/30 backdrop-blur-sm rounded-2xl justify-center items-center hidden group-hover:flex">

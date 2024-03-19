@@ -9,13 +9,15 @@ import Footer from './components/Footer.vue';
 </script>
 
 <template>
-  <Header />
-  <Hero />
-  <RunningText />
-  <Testimonial />
-  <Order />
-  <CTA />
-  <Footer />
+  <main>
+    <Header />
+    <Hero />
+    <RunningText />
+    <Testimonial />
+    <Order />
+    <CTA />
+    <Footer />
+  </main>
 </template>
 
 <style scoped>

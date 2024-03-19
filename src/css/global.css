@@ -444,11 +444,24 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: 'LibreBaskerville';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url(./assets/fonts/LibreBaskerville-Regular.ttf) format('ttf');
+}
+
 a {
   display: inline-block;
 }
 
 h2 {
+  font-family: LibreBaskerville;
   font-size: 64px;
   font-weight: 600;
 }
@@ -649,8 +662,20 @@ h2 {
   top: 0px;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
+}
+
+.m-1 {
+  margin: 0.25rem;
 }
 
 .mx-20 {
@@ -701,6 +726,10 @@ h2 {
   margin-top: 0.75rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
@@ -711,10 +740,6 @@ h2 {
 
 .inline-block {
   display: inline-block;
-}
-
-.inline {
-  display: inline;
 }
 
 .flex {
@@ -731,6 +756,10 @@ h2 {
 
 .hidden {
   display: none;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-full {
@@ -815,6 +844,10 @@ h2 {
   border-radius: 1rem;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -831,24 +864,16 @@ h2 {
   border-radius: 0.75rem;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
-.rounded-3xl {
-  border-radius: 1.5rem;
-}
-
 .border-2 {
   border-width: 2px;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-b-4 {
   border-bottom-width: 4px;
+}
+
+.border-l {
+  border-left-width: 1px;
 }
 
 .border-t {
@@ -859,13 +884,14 @@ h2 {
   border-top-width: 4px;
 }
 
-.border-l {
-  border-left-width: 1px;
-}
-
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-graytext {
+  --tw-border-opacity: 1;
+  border-color: rgb(101 101 101 / var(--tw-border-opacity));
 }
 
 .border-primary {
@@ -876,11 +902,6 @@ h2 {
 .border-secondary {
   --tw-border-opacity: 1;
   border-color: rgb(0 116 117 / var(--tw-border-opacity));
-}
-
-.border-graytext {
-  --tw-border-opacity: 1;
-  border-color: rgb(101 101 101 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -912,6 +933,26 @@ h2 {
   background-color: rgb(255 255 255 / 0.3);
 }
 
+.bg-white\/40 {
+  background-color: rgb(255 255 255 / 0.4);
+}
+
+.bg-white\/80 {
+  background-color: rgb(255 255 255 / 0.8);
+}
+
+.bg-white\/20 {
+  background-color: rgb(255 255 255 / 0.2);
+}
+
+.bg-primary\/30 {
+  background-color: rgb(202 45 14 / 0.3);
+}
+
+.bg-white\/50 {
+  background-color: rgb(255 255 255 / 0.5);
+}
+
 .bg-\[url\(\/bg-gradient\.svg\)\] {
   background-image: url(/bg-gradient.svg);
 }
@@ -934,14 +975,6 @@ h2 {
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .\!px-0 {
@@ -969,9 +1002,19 @@ h2 {
   padding-right: 1rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .py-20 {
@@ -994,18 +1037,17 @@ h2 {
   padding-bottom: 1.5rem;
 }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .pl-\[20px\] {
@@ -1016,17 +1058,20 @@ h2 {
   padding-right: 1rem;
 }
 
-.pl-4 {
-  padding-left: 1rem;
+.text-left {
+  text-align: left;
 }
 
 .text-center {
   text-align: center;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.font-\[LibreBaskerville\] {
+  font-family: LibreBaskerville;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
 }
 
 .text-\[24px\] {
@@ -1073,6 +1118,10 @@ h2 {
   color: rgb(101 101 101 / var(--tw-text-opacity));
 }
 
+.text-graytext\/80 {
+  color: rgb(101 101 101 / 0.8);
+}
+
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(202 45 14 / var(--tw-text-opacity));
@@ -1110,19 +1159,9 @@ h2 {
   animation: flip 1s ease;
 }
 
-.hover\:border-primary:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(202 45 14 / var(--tw-border-opacity));
-}
-
 .hover\:border-black:hover {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.hover\:bg-primary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(202 45 14 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-black:hover {

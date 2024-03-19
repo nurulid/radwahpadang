@@ -3,12 +3,20 @@
 @tailwind utilities;
 
 @layer base {
+  @font-face {
+    font-family: 'LibreBaskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./assets/fonts/LibreBaskerville-Regular.ttf) format('ttf');
+  }
+
   a {
     @apply inline-block;
   }
 
   h2 {
-    @apply text-[64px] font-semibold;
+    @apply text-[64px] font-semibold font-[LibreBaskerville];
   }
 }
 
