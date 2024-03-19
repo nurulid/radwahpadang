@@ -27,17 +27,15 @@
 
   .category-list:before {
     content: "";
-    display: block;
     width: 200px;
     height: 1px;
-    @apply bg-primary absolute left-0;
+    @apply bg-primary absolute left-0 bottom-0 min-[1200px]:bottom-[unset] lg:block;
   }
 
   .category-list:after {
     content: "";
-    display: block;
     width: 200px;
     height: 1px;
-    @apply bg-primary absolute right-0;
+    @apply bg-primary absolute right-0 bottom-0 min-[1200px]:bottom-[unset] lg:block;
   }
 }
