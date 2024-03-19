@@ -8,39 +8,11 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(./assets/fonts/LibreBaskerville-Regular.ttf) format('ttf');
-  }
-
-  @font-face {
-    font-family: 'LibreBaskerville';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(./assets/fonts/LibreBaskerville-Regular.eot) format('eot');
-  }
-
-  @font-face {
-    font-family: 'LibreBaskerville';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(./assets/fonts/LibreBaskerville-Regular.svg) format('svg');
-  }
-
-  @font-face {
-    font-family: 'LibreBaskerville';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(./assets/fonts/LibreBaskerville-Regular.woff) format('woff');
-  }
-
-  @font-face {
-    font-family: 'LibreBaskerville';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(./assets/fonts/LibreBaskerville-Regular.woff2) format('woff2');
+    src: url('./assets/fonts/LibreBaskerville-Regular.eot');
+    src: url('./assets/fonts/LibreBaskerville-Regular.ttf') format('ttf'),
+    url('./assets/fonts/LibreBaskerville-Regular.svg') format('svg'),
+    url('./assets/fonts/LibreBaskerville-Regular.woff') format('woff'),
+    url('./assets/fonts/LibreBaskerville-Regular.woff2') format('woff2');
   }
 
   a {
