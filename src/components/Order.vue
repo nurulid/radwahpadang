@@ -1,6 +1,6 @@
 <template>
-  <section class="my-10 bg-[url(/bg-gradient.svg)] bg-no-repeat bg-cover py-20 border-b border-1 border-gray-300 lg:border-0">
-    <div class="container">
+  <section class="my-10 bg-[url(/bg-gradient.svg)] bg-no-repeat bg-cover py-20 border-t-primary/20 border-b-secondary/20 border">
+    <div class="container max-w-[768px]:pb-0">
       <div class="text-center mb-20" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="100">
         <span class="py-1 px-4 bg-secondary text-white rounded-md inline-block font-[LibreBaskerville] uppercase text-sm">Order</span>
         <h2 class="mt-3 font-[LibreBaskerville] font-semibold">Cara Pemesanan</h2>
