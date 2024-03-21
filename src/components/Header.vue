@@ -20,6 +20,7 @@ export default {
     // if no subcomponents specify a metaInfo.title, this title will be used
     title: 'Radwah Padang',
     meta: [
+      { charset: 'utf-8' },
       { name: 'description', content: 'Menjual pakaian muslimah trendi masa kini.' },
       { name: 'keywords', content: 'radwah, radwah padang, radwahpadang, padang, pakaian muslim padang, gamis padang, tunik padang, hijab padang, butik padang, butik online, butik online padang, butik' },
     ],
