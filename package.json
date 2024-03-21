@@ -13,7 +13,8 @@
     "aos": "^2.3.4",
     "lucide-vue-next": "^0.358.0",
     "vue": "^3.4.21",
-    "vue-marquee-text-component": "^2.0.1"
+    "vue-marquee-text-component": "^2.0.1",
+    "vue-meta": "^2.4.0"
   },
   "devDependencies": {
     "@types/aos": "^3.0.7",
