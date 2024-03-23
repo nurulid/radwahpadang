@@ -42,7 +42,7 @@
 
 @layer components {
   .container-custom {
-    @apply max-w-[1280px] mx-auto p-8;
+    @apply max-w-[1240px] mx-auto p-8;
   }
 
   .category-list {
