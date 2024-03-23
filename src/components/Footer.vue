@@ -5,7 +5,7 @@
           <span class="pr-4">@ 2024</span> 
           <a href="https://www.instagram.com/radwahpadang" target="_blank" class="inline-flex gap-2 items-center pl-4 border-l border-graytext"><Instagram size="18"/> radwahpadang</a>
         </p>
-        <a href="https://nurulid.space" target="_blank">Site by Nurul Insani Dewi</a>
+        <a href="https://nurulid.space" target="_blank">Site by Nurul ID</a>
     </div>
   </footer>
 </template>
