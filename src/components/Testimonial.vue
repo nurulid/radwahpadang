@@ -1,5 +1,5 @@
 <template>
-  <section class="container-custom my-10">
+  <section class="container-custom my-20">
     <div class="text-center mb-20" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="300">
       <span
         class="py-1 px-4 bg-secondary text-white rounded-md inline-block font-[LibreBaskerville] uppercase text-sm">Trusted</span>
