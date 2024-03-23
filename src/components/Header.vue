@@ -1,5 +1,6 @@
 <template lang="">
-  <header class="container-custom p-[1rem_1rem_2rem] lg:p-[4rem_2rem]">
+  <header class="container-custom p-[1rem_1rem_2rem] lg:p-[6rem_2rem] text-center">
+    <p class="text-secondary text-center text-[20px] mb-4 text-sm bg-slate-200 px-4 py-2 rounded-full inline-block">Menjual pakaian muslimah trendi masa kini.</p>
     <img src="../assets/radwahpadang-logo.svg" class="max-w-[558px] w-[250px] md:w-full mx-auto" alt="" data-aos="fade-down" data-aos-duration="1000">
     <ul data-aos="zoom-out" data-aos-duration="1500" class="category-list text-primary flex justify-center items-center flex-wrap gap-x-4 gap-y-2 md:gap-10 p-5">
       <li>Dress</li>
@@ -11,7 +12,6 @@
       <li>Scarf</li>
       <li>Prayer set</li>
     </ul>
-    <p class="text-graytext/90 text-center text-[20px] mt-4 text-sm">Menjual pakaian muslimah trendi masa kini.</p>
   </header>
 </template>
 <script>

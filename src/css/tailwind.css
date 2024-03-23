@@ -28,18 +28,7 @@
   }
 
   body {
-    margin: 0;
-    min-width: 320px;
-    min-height: 100vh;
-    background-color: #F7F1EB;
-    font-size: 16px;
-  }
-
-  .container-custom {
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2rem;
+    @apply m-0 min-w-[320px] min-h-screen bg-[#F7F1EB] text-base;
   }
 
   a {
@@ -52,6 +41,10 @@
 }
 
 @layer components {
+  .container-custom {
+    @apply max-w-[1280px] mx-auto p-8;
+  }
+
   .category-list {
     @apply relative;
   }

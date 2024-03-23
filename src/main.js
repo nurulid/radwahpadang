@@ -1,7 +1,6 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import Meta from "vue-meta";
-import "./css/style.css";
 import "./css/global.css";
 
 // importing AOS

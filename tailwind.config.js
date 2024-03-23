@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': "#CA2D0E",
-        'primaryLight': "#FFD4CC",
-        'secondary': "#007475",
-        'graytext': "#656565"
+        'primary': "#CA2D0E", // red
+        'primaryLight': "#FFD4CC", // light soft red
+        'secondary': "#007475", // green
+        'graytext': "#656565" // gray
       },
       keyframes: {
         flip: {
