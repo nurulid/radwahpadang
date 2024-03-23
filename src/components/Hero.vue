@@ -34,35 +34,35 @@ export default {
           image: '/images/pants.png',
           name: 'Reeva Pants',
           url: 'https://www.instagram.com/p/C3mjOJ2pEJK/?img_index=1',
-          sale: true
+          sale: false
         },
         {
           id: '03',
           image: '/images/tunik.png',
           name: 'Bahriya Tunic',
           url: 'https://www.instagram.com/p/CpsH7KwJmoe/?img_index=1',
-          sale: true
+          sale: false
         },
         {
           id: '04',
           image: '/images/mukena.png',
           name: 'Premium Jasmine Prayer Set',
           url: 'https://www.instagram.com/p/Cqj9kFjJTYQ/?img_index=4',
-          sale: true
+          sale: false
         },
         {
           id: '05',
           image: '/images/scarf.png',
           name: 'Azalena Scarf',
           url: 'https://www.instagram.com/p/CrAQKB-pRdt/?img_index=1',
-          sale: true
+          sale: false
         },
         {
           id: '06',
           image: '/images/outer.png',
           name: 'Tiana Outer',
           url: 'https://www.instagram.com/p/C3l3zNnJABg/?img_index=1',
-          sale: true
+          sale: false
         }
       ]
     };
