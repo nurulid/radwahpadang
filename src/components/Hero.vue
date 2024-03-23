@@ -1,5 +1,5 @@
 <template>
-  <section class="container mb-10 text-center">
+  <section class="container-custom mb-10 text-center">
     <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 md::gap-10 mb-20">
       <HeroProduct :data="products"/>
     </div>

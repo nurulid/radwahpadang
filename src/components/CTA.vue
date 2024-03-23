@@ -1,5 +1,5 @@
 <template>
-  <section class="container my-[50px] lg:my-[150px]">
+  <section class="container-custom my-[50px] lg:my-[150px]">
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 mx-0 md:mx-5 lg:mx-20">
       <div class="lg:col-span-2 bg-black text-white p-10 rounded-2xl flex flex-col justify-between gap-10">
         <div class="relative">
