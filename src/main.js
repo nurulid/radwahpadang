@@ -9,7 +9,6 @@ import "aos/dist/aos.css";
 import "./css/global.css";
 
 const app = createApp(App);
-const loadimage = ('loading.gif')
 
 // register Swiper custom elements
 register();
@@ -21,7 +20,6 @@ AOS.init();
 // app.use(Meta);
 app.use(VueLazyload, {
   preLoad: 1.3,
-  loading: loadimage,
   attempt: 1
 });
 
