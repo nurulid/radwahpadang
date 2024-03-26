@@ -1,7 +1,7 @@
 <template>
   <section class="container-custom my-[50px] lg:my-[150px]">
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 mx-0 md:mx-5 lg:mx-20">
-      <div class="lg:col-span-2 bg-black text-white p-10 rounded-2xl flex flex-col justify-between gap-10">
+      <div  data-aos="zoom-in" data-aos-offset="300" data-aos-delay="200" class="lg:col-span-2 bg-black text-white p-10 rounded-2xl flex flex-col justify-between gap-10">
         <div class="relative">
           <h2 class="leading-[1] mb-5 text-[32px] lg:text-[48px] font-semibold pl-[20px]">Cek katalog lengkap di Instagram kami</h2>
           <img src="/icons/ic-highlight.svg" width="24" alt="" class="absolute left-0 -top-4 animate-bounce">
@@ -14,7 +14,7 @@
           </div>
         </div>
       </div>
-      <div class="bg-white p-10 rounded-2xl space-y-6 relative group hover:animate-flip transition-all">
+      <div data-aos="zoom-in" data-aos-offset="300" data-aos-delay="600" class="bg-white p-10 rounded-2xl space-y-6 relative group hover:animate-flip transition-all">
         <img src="/icons/ic-whatsapp-black.svg" width="80" alt="" fill="black">
         <h3 class="text-[24px] font-semibold font-[LibreBaskerville]">Fast Respon</h3>
         <p class="text-graytext">Jika ada pertanyaan atau pemesanan, langsung hubungi admin kami melalui WhatsApp ya.</p>

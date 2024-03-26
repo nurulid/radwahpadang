@@ -755,6 +755,16 @@ h2 {
   margin-bottom: 50px;
 }
 
+.my-\[100px\] {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.my-\[150px\] {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -1374,6 +1384,16 @@ h2 {
   .lg\:my-\[150px\] {
     margin-top: 150px;
     margin-bottom: 150px;
+  }
+
+  .lg\:my-\[250px\] {
+    margin-top: 250px;
+    margin-bottom: 250px;
+  }
+
+  .lg\:my-\[200px\] {
+    margin-top: 200px;
+    margin-bottom: 200px;
   }
 
   .lg\:grid-cols-3 {
