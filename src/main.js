@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import Meta from "vue-meta";
+// import Meta from "vue-meta";
 import VueLazyload from 'vue-lazyload'
 import AOS from "aos";
 import { register } from 'swiper/element/bundle';
@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import "./css/global.css";
 
 const app = createApp(App);
-// const loadimage = ('loading.gif');
+const loadimage = ('loading.webp');
 
 // register Swiper custom elements
 register();
@@ -21,7 +21,7 @@ AOS.init();
 // app.use(Meta);
 app.use(VueLazyload, {
   preLoad: 1.3,
-  // loading: loadimage,
+  loading: loadimage,
   attempt: 1
 });
 

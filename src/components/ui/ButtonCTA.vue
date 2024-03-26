@@ -1,5 +1,5 @@
 <template lang="">
-  <a href="#"
+  <a :href="url" target="_blank"
     class="bg-primary text-white py-5 px-10 rounded-full uppercase font-semibold hover:text-white hover:shadow-xl transition-all inline-block group">
     {{title}}
     <MoveUpRight class="inline-block ml-2 group-hover:rotate-45 transition-all" size="20" />
@@ -13,7 +13,8 @@ export default {
     MoveUpRight
   },
   props: {
-    title: String
+    title: String,
+    url: String
   }
 }
 </script>

@@ -7,7 +7,7 @@
           <img src="/icons/ic-highlight.svg" width="24" alt="" class="absolute left-0 -top-4 animate-bounce">
         </div>
         <div class="flex justify-between items-end flex-wrap gap-5">
-          <ButtonCTA :title="title" class="order-2 md:order-1"/>
+          <ButtonCTA :title="title" :url="url" class="order-2 md:order-1"/>
           <div class="flex items-center gap-2 text-white order-1 md:order-2">
             <img src="/icons/ic-instagram.svg" width="30" alt="">
             radwahpadang
@@ -35,7 +35,8 @@ export default {
   },
   data() {
     return {
-      title: 'Cek Katalog'
+      title: 'Cek Katalog',
+      url: 'https://www.instagram.com/radwahpadang/'
     }
   }
 }

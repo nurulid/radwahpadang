@@ -4,7 +4,7 @@
       <HeroProduct :data="products"/>
     </div>
     <div data-aos="fade-right" data-aos-delay="300"  data-aos-offset="100" >
-      <ButtonCTA :title="title" />
+      <ButtonCTA :title="title" :url="url"/>
     </div>
   </section>
 </template>
@@ -21,6 +21,7 @@ export default {
   data() {
     return {
       title: 'Cek Katalog Lengkap',
+      url: 'https://www.instagram.com/radwahpadang/',
       products: [
         {
           id: '01',
