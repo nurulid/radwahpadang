@@ -31,17 +31,17 @@ export default {
       stepData: [
         {
           number: '01',
-          icon: '/icons/ic-whatsapp.svg',
+          icon: './icons/ic-whatsapp.svg',
           desc: 'Chat admin melalui WhatsApp 0822-8879-4956'
         },
         {
           number: '02',
-          icon: '/icons/ic-money.svg',
+          icon: './icons/ic-money.svg',
           desc: 'Transfer total pembayaran ke nomor rekening yang telah disediakan.'
         },
         {
           number: '03',
-          icon: '/icons/ic-delivery.svg',
+          icon: './icons/ic-delivery.svg',
           desc: 'Pesanan anda akan segera kami kirim.'
         }
       ]
