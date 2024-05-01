@@ -755,6 +755,11 @@ h2 {
   margin-bottom: 50px;
 }
 
+.mx-\[200px\] {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -815,6 +820,10 @@ h2 {
   display: none;
 }
 
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
 .h-\[2\.2rem\] {
   height: 2.2rem;
 }
@@ -823,12 +832,52 @@ h2 {
   height: 100%;
 }
 
+.h-\[full\] {
+  height: full;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-\[350px\] {
+  height: 350px;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[370px\] {
+  height: 370px;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.max-h-\[350px\] {
+  max-height: 350px;
+}
+
+.max-h-\[370px\] {
+  max-height: 370px;
+}
+
 .w-\[2\.2rem\] {
   width: 2.2rem;
 }
 
 .w-\[250px\] {
   width: 250px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-\[\] {
+  width: ;
 }
 
 .max-w-\[558px\] {
@@ -901,6 +950,10 @@ h2 {
 
 .gap-9 {
   gap: 2.25rem;
+}
+
+.gap-16 {
+  gap: 4rem;
 }
 
 .gap-x-4 {
@@ -1038,6 +1091,16 @@ h2 {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-10 {
