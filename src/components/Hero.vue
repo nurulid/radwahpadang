@@ -1,8 +1,9 @@
 <template>
   <section class="container-custom mb-10 text-center">
-    <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 md::gap-10 mb-20">
+    <div v-if="data.length !== 0" class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 md::gap-10 mb-20">
       <HeroProduct :data="data"/>
     </div>
+    <p v-else class="text-center p-10">Loading...</p>
     <div data-aos="fade-right" data-aos-delay="300"  data-aos-offset="100" >
       <ButtonCTA :title="title" :url="url"/>
     </div>
